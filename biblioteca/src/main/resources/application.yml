@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mi-biblioteca
+  profiles:
+    active: ${PROFILE:prod}
